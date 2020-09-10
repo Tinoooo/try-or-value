@@ -23,9 +23,7 @@
     "url": "https://github.com/Tinoooo/try-or-value/issues"
   },
   "homepage": "https://github.com/Tinoooo/try-or-value#readme",
-  "dependencies": {
-    "lodash": "^4.17.10"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-add-module-exports": "^0.2.1",

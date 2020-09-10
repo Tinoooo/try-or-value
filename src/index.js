@@ -1,10 +1,8 @@
-import { isFunction } from 'lodash';
-
 export function tryOrValue(tryFn, catchValue) {
     try {
         return tryFn();
     } catch (e) {
-        return isFunction(catchValue) ? catchValue() : catchValue;
+        return typeof catchValue === 'function' ? catchValue() : catchValue;
     }
 }
 
