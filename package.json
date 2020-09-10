@@ -1,6 +1,6 @@
 {
   "name": "try-or-value",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a simple utility function for inline try-catch-statements",
   "main": "./lib/index.js",
   "scripts": {
